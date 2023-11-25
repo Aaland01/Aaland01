@@ -4,7 +4,7 @@
 
 def addRecord(Tabell,values): 
     "Generisk funksjon for å legge til data"
-    "Param: Navnet på tabellen som skal INSERTes INTO, verdier/liste med verdier og antall verdier pr INSERT"
+    "Param: Navnet på tabellen som skal INSERTes INTO, og verdier/liste med verdier"
     "Antar at verdier som legges inn kommer som liste eller tuple"
     
     try:
