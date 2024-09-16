@@ -11,5 +11,9 @@ def perfectShuffle(list):
 def defaultParam(check=True):
     print("True" if check else "False")
     
-defaultParam(0)
-defaultParam("")
+def stringReplace(string, a, b):
+    '''Replaces instances of a in string with b'''
+    if(isinstance(string, str) and isinstance(a, str) and isinstance(b, str)):
+        print(string.replace(a,b))
+    else:
+        print("Input needs to be string")
